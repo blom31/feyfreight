@@ -9,8 +9,8 @@ export function Hero() {
       <div className="hero__content">
         {/* Título principal (H1) separado */}
         <h1 className="hero__title">
-          Rastreo de <span className="hero__title-gradient">Precisión</span> en
-          Tiempo Real
+          <span className="hero__title-gradient">Rastreo de Precisión</span>
+          <br></br> en Tiempo Real
         </h1>
 
         {/* Descripción (Párrafo) separado */}
@@ -20,7 +20,7 @@ export function Hero() {
         </p>
 
         {/* Componente de búsqueda independiente */}
-        <TrackingSearch />
+        {/* <TrackingSearch /> */}
 
         <div className="hero__partners">
           <img

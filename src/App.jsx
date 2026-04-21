@@ -10,7 +10,7 @@ export function App() {
 
         <main>
           <Routes>
-            <Route path="/" element={Hero} />
+            <Route path="/" element={<Hero />} />
           </Routes>
         </main>
       </div>
